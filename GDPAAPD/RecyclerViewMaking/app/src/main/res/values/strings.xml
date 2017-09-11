@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string-array name="text1text">
+        <item>Harshit</item>
+        <item>Aditi</item>
+        <item>Kartikey</item>
+        <item>Akshay</item>
+        <item>Sagar</item>
+        <item>Palash</item>
+        <item>Jalaj</item>
+        <item>Anany</item>
+        <item>Nidanshu</item>
+    </string-array>
+    <string-array name="text2text">
+        <item>Singhal</item>
+        <item>Saini</item>
+        <item>Kotnala</item>
+        <item>Kumar</item>
+        <item>Kalra</item>
+        <item>Shrivastava</item>
+        <item>Satija</item>
+        <item>Devedi</item>
+        <item>Arora</item>
+    </string-array>
+</resources>

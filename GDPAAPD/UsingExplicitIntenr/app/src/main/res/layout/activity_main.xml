@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.harshit.usingexplicitintenr.MainActivity"
+    android:background="#58e6ac">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is my first app page"
+        android:textColor="#2d2d51"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:id="@+id/text1"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Write my feelings"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text1"
+        android:id="@+id/myfeel"
+        android:textSize="23dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myfeel"
+        android:layout_centerHorizontal="true"
+        android:text="Go "
+        android:id="@+id/button1"
+        />
+
+</RelativeLayout>

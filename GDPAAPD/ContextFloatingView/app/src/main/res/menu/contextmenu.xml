@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="copy"
+        android:orderInCategory="10"
+        android:id="@+id/copyid"
+        />
+    <item
+        android:title="paste"
+        android:orderInCategory="11"
+        android:id="@+id/pasteid"
+        />
+</menu>

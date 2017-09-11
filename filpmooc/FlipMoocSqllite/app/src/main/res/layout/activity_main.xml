@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.harshit.flipmoocsqllite.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Name"
+        android:id="@+id/name"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Monthly Expenditure"
+        android:layout_below="@+id/name"
+        android:id="@+id/monexp"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Monthly Savings"
+        android:layout_below="@+id/monexp"
+        android:id="@+id/monsal"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/monsal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/addbutton"
+        android:text="ADD"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addbutton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/viewbutton"
+        android:text="View"/>
+</RelativeLayout>
